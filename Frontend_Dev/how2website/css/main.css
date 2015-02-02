@@ -1,3 +1,49 @@
+#wrapper{
+	max-width: 940px; 
+	/* want the width to be no larger than 940px */
+	margin: 0 auto; 
+	/* margin adjusts space OUTSIDE of the element
+	- center a wrapper element inside the browser window
+	spacing around for element; "0" sets margin for top and bottom of element, "auto" fills in space left and right side of the margin */
+	padding: 0 5%;
+	/* padding adjusts space INSIDE of the element */
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+	/* 0 will apply top, bottom, left and right */
+}
+
+a {
+	text-decoration: none; /* removes underline in links */
+	color: #6ab47b;
+}
+
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+h1, h2 {
+	color: #fff;
+}
+
+nav {
+	background: #599a68;
+}
+
+nav a, nav a:visited {
+	color: #fff;
+
+}
+
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+/* site body */
 body {
-	background-color: orange;
+	background-color: #fff;
+	color: #999;
 }

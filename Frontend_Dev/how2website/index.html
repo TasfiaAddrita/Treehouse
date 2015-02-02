@@ -24,64 +24,68 @@
 	<body> <!-- container for content and structure -->
 
 		<header> <!-- helps structure content -->
-			<a href="index.html"> <!-- "a": anchor element, "href": hyperlink reference -->
+			<a href="index.html" id="logo"> <!-- "a": anchor element, "href": hyperlink reference -->
 				<h1>Tasfia Addrita</h1>
 				<h2>Innovator</h2>
 			</a>
 
 			<nav>
 				<ul> <!-- unordered list -->
-					<li><a href="index.html">Portfolio</a></li>
+					<li><a href="index.html" class="selected">Portfolio</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul> 
 			</nav>
 		</header>
 
-		<section> <!-- break up logicial groupings of information -->
-			<ul>
-				<li>
-					<a href="img/numbers-01.jpg">
-						<img src="img/numbers-01.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
-						<p>Experimentation with color and texture.</p>
-					</a>
-				</li>
+		<div id="wrapper"> <!-- "wrapper": css selector that selects a single element based on its ID attribute-->
 
-				<li>
-					<a href="img/numbers-02.jpg">
-						<img src="img/numbers-02.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
-						<p>Playing with blending modes in Photoshop</p>
-					</a>
-				</li>
+			<section> <!-- break up logicial groupings of information -->
+				<ul>
+					<li>
+						<a href="img/numbers-01.jpg">
+							<img src="img/numbers-01.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
+							<p>Experimentation with color and texture.</p>
+						</a>
+					</li>
 
-				<li>
-					<a href="img/numbers-06.jpg">
-						<img src="img/numbers-06.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
-						<p>Trying to create an 80's style of glows.</p>
-					</a>
-				</li>
+					<li>
+						<a href="img/numbers-02.jpg">
+							<img src="img/numbers-02.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
+							<p>Playing with blending modes in Photoshop</p>
+						</a>
+					</li>
 
-				<li>
-					<a href="img/numbers-09.jpg">
-						<img src="img/numbers-09.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
-						<p>Drips created using Photoshop brushes.</p>
-					</a>
-				</li>
+					<li>
+						<a href="img/numbers-06.jpg">
+							<img src="img/numbers-06.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
+							<p>Trying to create an 80's style of glows.</p>
+						</a>
+					</li>
 
-				<li>
-					<a href="img/numbers-12.jpg">
-						<img src="img/numbers-12.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
-						<p>Creating shapes using repetition.</p>
-					</a>
-				</li>
-			</ul>
-		</section> 
+					<li>
+						<a href="img/numbers-09.jpg">
+							<img src="img/numbers-09.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
+							<p>Drips created using Photoshop brushes.</p>
+						</a>
+					</li>
 
-		<footer> <!-- complement to <header>, represents bottom area content -->
-			<a href="http://twitter.com/TasfiaAddrita"><img src="img/twitter-wrap.png" alt="Twitter Logo"></a>
-			<a href="http://facebook.com/Tasfia.I.Addrita"><img src="img/facebook-wrap.png" alt="Facebook Logo"></a>
-			<p>&copy; 2015 Tasfia Addrita.</p> <!-- "&copy;" is an HTML entity, characters that do not show up in our keyboard -->
-		</footer>
+					<li>
+						<a href="img/numbers-12.jpg">
+							<img src="img/numbers-12.jpg" alt=""> <!-- "src": tells browser where image is located (relative path), "alt": alternate, brief description of image -->
+							<p>Creating shapes using repetition.</p>
+						</a>
+					</li>
+				</ul>
+			</section> 
+
+			<footer> <!-- complement to <header>, represents bottom area content -->
+				<a href="http://twitter.com/TasfiaAddrita"><img src="img/twitter-wrap.png" alt="Twitter Logo"></a>
+				<a href="http://facebook.com/Tasfia.I.Addrita"><img src="img/facebook-wrap.png" alt="Facebook Logo"></a>
+				<p>&copy; 2015 Tasfia Addrita.</p> <!-- "&copy;" is an HTML entity, characters that do not show up in our keyboard -->
+			</footer>
+
+		<div>
 
 	</body>
 
