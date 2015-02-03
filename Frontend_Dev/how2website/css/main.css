@@ -1,3 +1,11 @@
+/*****************************************
+GENERAL
+******************************************/
+/* structures documents */
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #wrapper{
 	max-width: 940px; 
 	/* want the width to be no larger than 940px */
@@ -9,41 +17,96 @@
 	/* padding adjusts space INSIDE of the element */
 }
 
+/* links are green, removes underline */
+a {
+	text-decoration: none; /* removes underline in links */
+}
+
+/*****************************************
+HEADING
+*****************************************/
+
+/* centers logo */
 #logo {
 	text-align: center;
 	margin: 0;
 	/* 0 will apply top, bottom, left and right */
 }
 
-a {
-	text-decoration: none; /* removes underline in links */
-	color: #6ab47b;
+h1 {
+	font-family:'Raleway', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em; /* "em": relative unit of measurement */
+	font-weight: normal; /* unbolds headline */
+	line-height: 0.8em; /* determines amount of space btwn each line of text */
 }
 
-header {
-	background: #6ab47b;
-	border-color: #599a68;
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0; /* third value sets bottom, makes elements "tighter" together */
+	font-weight: normal;
 }
 
-h1, h2 {
-	color: #fff;
-}
+
+/*****************************************
+NAVIGATION
+*****************************************/
 
 nav {
-	background: #599a68;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
 }
 
-nav a, nav a:visited {
-	color: #fff;
+/*****************************************
+FOOTER
+*****************************************/
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	padding-top: 50px; /* sets padding ONLY at top */
+	color: #ccc; 
 
 }
 
-nav a.selected, nav a:hover {
-	color: #32673f;
-}
+/*****************************************
+COLORS
+*****************************************/
 
 /* site body */
 body {
 	background-color: #fff;
 	color: #999;
 }
+
+/* green header */
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+/* nav bg on mobile devices */
+nav {
+	background: #599a68;
+}
+
+/* header text is white */
+h1, h2 {
+	color: #fff;
+}
+
+a {
+	color: #6ab47b;
+}
+
+/* links that are visted turn white */
+nav a, nav a:visited {
+	color: #fff;
+
+}
+
+/* link that is currently selected and links that are cursor is hovered over is dark green */
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
