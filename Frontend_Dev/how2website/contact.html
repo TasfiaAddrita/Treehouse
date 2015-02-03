@@ -1,0 +1,69 @@
+<DOCTYPE html> <!-- tells browser what kind of content to expect -->
+
+<html> <!-- container/document root for HTML document -->
+
+	<head> <!-- container for meta information about HTML document -->
+		<meta charset="utf-8"> <!-- attribute charset: character set, helps describe how page is formatted-->
+		<title>Tasfia Addrita | Innovator </title> <!-- appears in web browser tabs and search engine results -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+
+		<!-- This is a rule
+		<style>
+			nav /*selector*/ { 
+				/*declaration*/ background-color/*property*/: red; /*value*/
+			}
+
+			nav a {
+				color: white;
+			}
+		</style> -->
+
+	</head>
+
+	<body> <!-- container for content and structure -->
+
+		<header> <!-- helps structure content -->
+			<a href="index.html" id="logo"> <!-- "a": anchor element, "href": hyperlink reference -->
+				<h1>Tasfia Addrita</h1>
+				<h2>Innovator</h2>
+			</a>
+
+			<nav>
+				<ul> <!-- unordered list -->
+					<li><a href="index.html">Portfolio</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html" class="selected">Contact</a></li>
+				</ul> 
+			</nav>
+		</header>
+
+		<div id="wrapper"> <!-- "wrapper": css selector that selects a single element based on its ID attribute-->
+
+			<section>
+				<h3>General Information</h3>
+				<p>I am currently looking for innovation opportunities. But I am available for speaking gigs and similar engagements. If you have any questions, please don't hesitate to contact me.</p>
+				<p>Please only use phone contact for urgent inquiries. Otherwise twitter and email are the best way to reach me.</p>
+			</section> 
+
+			<section>
+				<h3>Contact Details</h3>
+				<ul class="contact-info">
+					<li class="phone"><a href="tel:555-6425">555-6425</li>
+					<li class="mail"><a href="mailto:tasfia.addrita@gmail.com">tasfia.addrita@gmail.com</li>
+					<li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=TasfiaAddrita">@TasfiaAddrita</li>
+				</ul>
+			</section>
+
+			<footer> <!-- complement to <header>, represents bottom area content -->
+				<a href="http://twitter.com/TasfiaAddrita"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+				<a href="http://facebook.com/Tasfia.I.Addrita"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+				<p>&copy; 2015 Tasfia Addrita.</p> <!-- "&copy;" is an HTML entity, characters that do not show up in our keyboard -->
+			</footer>
+
+		<div>
+
+	</body>
+
+</html>
