@@ -41,7 +41,7 @@
 }
 
 /* target digital screens > 660px, (overrides first media query */
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 750px) {
 
 	/*****************************************
 	HEADER
