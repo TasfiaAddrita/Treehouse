@@ -7,3 +7,6 @@ Below I posted several notes that I thought were important to keep in mind.
 
 **Frontend Dev Notes**: 
 - Best to build mobile website first, then build tablet/desktop.
+--***CSS**
+- Fluid layout: The page elements have relative width units, like percentages.
+- 
