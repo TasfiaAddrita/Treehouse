@@ -5,12 +5,12 @@ Hi! You can follow me on my journey through Treehouse, an interactive education 
 
 Below I posted several notes that I thought were important to keep in mind.
 
-### Frontend Dev Notes: 
+## Frontend Dev Notes: 
 - Best to build mobile website first, then build tablet/desktop.
 - HTML Validator: http://validator.w3.org
 - CSS Validator: http://jigsaw.w3.org/css-validator/validator
 
-## CSS:
+### CSS:
 - Margin: adjusts space OUTSIDE of element
 - Padding: adjusts space INSIDE of element
 - Fluid layout: The page elements have relative width units, like percentages.
