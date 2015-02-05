@@ -10,7 +10,7 @@ Below I posted several notes that I thought were important to keep in mind.
 - HTML Validator: http://validator.w3.org
 - CSS Validator: http://jigsaw.w3.org/css-validator/validator
 
-### CSS:
+## CSS:
 - Margin: adjusts space OUTSIDE of element
 - Padding: adjusts space INSIDE of element
 - Fluid layout: The page elements have relative width units, like percentages.
