@@ -5,9 +5,9 @@ Hi! You can follow me on my journey through Treehouse, an interactive education 
 
 Below I posted several notes that I thought were important to keep in mind.
 
-**Frontend Dev Notes**: 
+### Frontend Dev Notes: 
 - Best to build mobile website first, then build tablet/desktop.
 
-**CSS**:
+### CSS:
 - Fluid layout: The page elements have relative width units, like percentages.
 - Reponsive design: fluid images, fluid grids, media queries (allow page elements to be adjusted based on width of the page)
