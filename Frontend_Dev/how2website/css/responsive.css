@@ -1,0 +1,13 @@
+/* target digital screens > 480px, makes bg navy*/
+@media screen and (min-width: 480px) { 
+	body {
+		background: navy;
+	}
+}
+
+/* target digital screens > 660px, makes bg darkgreen (overrides first media query */
+@media screen and (min-width: 660px) {
+	body {
+		background: darkgreen; 
+	}
+}

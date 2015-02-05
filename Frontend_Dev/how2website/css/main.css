@@ -17,7 +17,6 @@ body {
 	/* padding adjusts space INSIDE of the element */
 }
 
-/* links are green, removes underline */
 a {
 	text-decoration: none; /* removes underline in links */
 }
