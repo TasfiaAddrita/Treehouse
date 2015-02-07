@@ -7,8 +7,10 @@ Below I posted several notes that I thought were important to keep in mind.
 
 ## Frontend Dev Notes: 
 - Best to build mobile website first, then build tablet/desktop.
+- Difference between IDs and classes: http://css-tricks.com/the-difference-between-id-and-class/
 - HTML Validator: http://validator.w3.org
 - CSS Validator: http://jigsaw.w3.org/css-validator/validator
+- CSS Visual Formatting Model: http://www.w3.org/TR/CSS2/visuren.html
 
 ### CSS:
 - Margin: adjusts space OUTSIDE of element
