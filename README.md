@@ -5,7 +5,7 @@ Hi! You can follow me on my journey through Treehouse, an interactive education 
 
 Below I posted several notes that I thought were important to keep in mind.
 
-## Frontend Dev Notes: 
+## How to Make a Website Notes: 
 - Best to build mobile website first, then build tablet/desktop.
 - Difference between IDs and classes: http://css-tricks.com/the-difference-between-id-and-class/
 - HTML Validator: http://validator.w3.org
