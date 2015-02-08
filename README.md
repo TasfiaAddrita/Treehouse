@@ -17,3 +17,5 @@ Below I posted several notes that I thought were important to keep in mind.
 - **Fluid layout**: The page elements have relative width units, like percentages.
 - **Reponsive design**: fluid images, fluid grids, media queries (allow page elements to be adjusted based on width of the page)
 - Difference between IDs and classes: http://css-tricks.com/the-difference-between-id-and-class/
+
+## Javascript Basics Notes: 
