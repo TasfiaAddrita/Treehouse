@@ -19,3 +19,8 @@ Below I posted several notes that I thought were important to keep in mind.
 - Difference between IDs and classes: http://css-tricks.com/the-difference-between-id-and-class/
 
 ## Javascript Basics Notes: 
+
+### Statements: 
+- **alert()**
+- **document.write()**
+- **console.log()**
