@@ -21,6 +21,6 @@ Below I posted several notes that I thought were important to keep in mind.
 ## Javascript Basics Notes: 
 
 ### Statements: 
-- **alert()**
-- **document.write()**
-- **console.log()**
+- **alert()**: pop-up dialog in web browser
+- **document.write()**: writes in web browser
+- **console.log()**: sends messages to Javascript Console
