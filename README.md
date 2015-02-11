@@ -33,4 +33,3 @@ Below I posted several notes that I thought were important to keep in mind.
 - **.length** returns the number of characters inside a string
 - **.toUpperCase()** returns the a copy of a string with all uppercase letters
 - **.toLowerCase()** returns the a copy of a string with all lowercase letters
-- 
