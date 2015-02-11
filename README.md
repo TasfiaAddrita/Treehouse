@@ -19,8 +19,18 @@ Below I posted several notes that I thought were important to keep in mind.
 - Difference between IDs and classes: http://css-tricks.com/the-difference-between-id-and-class/
 
 ## Javascript Basics Notes: 
+- Javascript Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
-### Statements: 
+### Commands and Other Notes: 
 - **alert()**: pop-up dialog in web browser
-- **document.write()**: writes in web browser
+- **document.write()**: prints message to webpage
 - **console.log()**: sends messages to Javascript Console
+- **var**: creates a variable
+- You can only name variables using letters, numbers, $ and _. 
+- You can't start off a variable with a number 
+- **prompt()**: creates pop-up dialog for user-input
+- **concatenation**: combining strings with "+" operator
+- **.length** returns the number of characters inside a string
+- **.toUpperCase()** returns the a copy of a string with all uppercase letters
+- **.toLowerCase()** returns the a copy of a string with all lowercase letters
+- 
