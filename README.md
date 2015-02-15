@@ -20,6 +20,7 @@ Below I posted several notes that I thought were important to keep in mind.
 
 ## Javascript Basics Notes: 
 - Javascript Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+- Don't repeat the same code twice! (Dry programming)
 
 ### Commands and Other Notes: 
 - **alert()**: pop-up dialog in web browser
@@ -30,6 +31,11 @@ Below I posted several notes that I thought were important to keep in mind.
 - You can't start off a variable with a number 
 - **prompt()**: creates pop-up dialog for user-input
 - **concatenation**: combining strings with "+" operator
-- **.length** returns the number of characters inside a string
-- **.toUpperCase()** returns the a copy of a string with all uppercase letters
-- **.toLowerCase()** returns the a copy of a string with all lowercase letters
+- **.length**: returns the number of characters inside a string
+- **.toUpperCase()**: returns the a copy of a string with all uppercase letters
+- **.toLowerCase()**: returns the a copy of a string with all lowercase letters
+- **parseInt(string)**: converts strings to integer numbers
+- **parseFloat(string)**: converts strings to float numbers
+- **Math.random()**: chooses a random number between 0 (inclusive) and 1 (exclusive)
+- **Math.floor()**: rounds number down
+- **Math.ceil()**: rounds number up
