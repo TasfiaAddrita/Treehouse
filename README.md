@@ -36,3 +36,6 @@ Below I posted several notes that I thought were important to keep in mind.
 - **.toLowerCase()**: returns the a copy of a string with all lowercase letters
 - **parseInt(string)**: converts strings to integer numbers
 - **parseFloat(string)**: converts strings to float numbers
+- **Math.random()**: chooses a random number between 0 (inclusive) and 1 (exclusive)
+- **Math.floor()**: rounds number down
+- **Math.ceil()**: rounds number up
