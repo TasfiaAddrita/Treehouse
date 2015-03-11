@@ -39,3 +39,4 @@ Below I posted several notes that I thought were important to keep in mind.
 - **Math.random()**: chooses a random number between 0 (inclusive) and 1 (exclusive)
 - **Math.floor()**: rounds number down
 - **Math.ceil()**: rounds number up
+- **===**: strict equal operator (checks against two conditions to see if they're the same)
