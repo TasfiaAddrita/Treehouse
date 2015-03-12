@@ -40,3 +40,9 @@ Below I posted several notes that I thought were important to keep in mind.
 - **Math.floor()**: rounds number down
 - **Math.ceil()**: rounds number up
 - **===**: strict equal operator (checks against two conditions to see if they're the same)
+- **function functionName()** {}: how to declare a function
+- **var name = function() {};**: *anonymous function*; another way to declare a function
+- return statement is always last; program will not look into any code after it
+- **global scope**: when a variable is accessible anywhere inside the program -- in the body of the program and within functions
+- **DON'T ACCESS GLOBAL VARIABLES**
+- Make sure to create a variable within the function scope, or else the function will search for a variable with the same name in the global scope and overwrite it
